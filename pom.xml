@@ -10,8 +10,16 @@
   <name>com.sonar.maven</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+ <properties>
+
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+  <sonar.host.url>http://35.242.173.67:9000/</sonar.host.url>
+
+  <sonar.login>admin</sonar.login>
+
+  <sonar.password>admin1</sonar.password>
+
   </properties>
 
   <dependencies>
